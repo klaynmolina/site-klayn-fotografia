@@ -1,0 +1,183 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    border: none;
+    outline: none;
+    font-weight: 300;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    color: #2F2F2F;
+}
+
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #E5E8E8;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* RESET */
+
+/* Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #2F2F2F #2F2F2F;
+}
+
+/* Chrome, Edge, Safari */
+*::-webkit-scrollbar {
+    width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #2F2F2F;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #4E545C;
+    border-radius: 20px;
+    border: 3px solid #4E545C;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden;
+    background-color: whitesmoke;
+    min-height: 100%;
+}
+
+.container-home {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 90vh;
+    /* height: 95vh; */
+    width: 100vw;
+}
+
+#home {
+    overflow: hidden;
+}
+
+.foto img {
+    width: 40vw;
+    border-radius: 10px;
+}
+
+.logo img {
+    margin-right: 100px;
+}
+
+.container-portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 0 auto;
+}
+
+.header-portfolio {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.header-portfolio h2 {
+    font-size: xx-large;
+    font-weight: bold;
+    text-transform: uppercase;
+    position: relative;
+    padding-bottom: 7px;
+    border-bottom: solid 5px #2F2F2F;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 5px;
+}
+
+.sub-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 1%;
+}
+
+.frame img {
+    min-width: 450px;
+    max-width: 450px;
+    min-height: 300px;
+    max-height: 300px;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2F2F2F;
+    color: whitesmoke;
+    padding: 5px 25px;
+    height: 75px;
+    /* height: 40px; */
+    font-size: larger;
+}
+
+.separador {
+    margin-bottom: 5%;
+}
+
+.footer-portfolio {
+    /*
+    width: 100%;
+    position: fixed; 
+    bottom: 0;
+    */
+    height: 75px;
+}
+
+.footer a, .footer p {
+    color: whitesmoke;
+}
+
+.links a {
+    padding: 25px;
+}
+
+.links button {
+    background: none;
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.links button:hover {
+    transform: scale(1.25);
+}
+
+.footer .links a, .footer .copyright a {
+    color: whitesmoke;
+}
+
+.klaynmolina:hover {
+    background-image: linear-gradient(to left, turquoise, steelblue, rebeccapurple);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: whitesmoke;
+}
